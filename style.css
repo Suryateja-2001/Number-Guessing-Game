@@ -31,7 +31,7 @@ body {
     margin-top: 15px;
 }
 
-.input-number {
+#input-number {
     width: 200px;
     height: 35px;
     padding: 5px;
