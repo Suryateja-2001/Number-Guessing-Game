@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgba(76, 229, 62, 0.927);
+}
+
+.container {
+    background-color: #ffff;
+    width: max-content;
+    border-radius: 20px;
+    padding: 10px;
+    /* centering the elements inside div */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* centering the div */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input-value {
+    margin-top: 15px;
+}
+
+.input-number {
+    width: 200px;
+    height: 35px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 6px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgba(53, 224, 37, 0.927);
+
+}
+
+#btn {
+    width: 70px;
+    height: 30px;
+    border-radius: 5%;
+    border-style: none;
+    background-color: rgba(53, 224, 37, 0.927);
+    color: #ffff;
+    cursor: pointer;
+}
+
+#btn:active {
+    background-color: #ffff;
+    color: rgba(53, 224, 37, 0.927);
+    border-color: rgba(53, 224, 37, 0.927);
+    border-style: solid;
+    border-width: 2px;
+}
+
+#guess-type {
+    padding: 15px;
+}
+
+ul {
+    margin: 10px 0;
+    list-style: none;
+}
+
+li {
+    padding: 3px;
+}
